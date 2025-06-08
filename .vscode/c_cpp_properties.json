@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "c:/Users/gunas/Desktop/msp430-project/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "mergeConfigurations": false,
+            "recursiveIncludes": {},
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "cppStandard": "c++23"
+        },
+        {
+            "name": "MSP430",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/ti/msp430-gcc/9.3.1.11/include",
+                "C:/ti/msp430-gcc/9.3.1.11/include/device"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "__MSP430G2553__"
+            ],
+      "compilerPath": "C:/ti/msp430-gcc/9.3.1.11/bin/msp430-elf-gcc.exe",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
